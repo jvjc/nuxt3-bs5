@@ -25,5 +25,5 @@ export default defineNuxtConfig({
       },
     },
   },
-  publicRuntimeConfig: fs.existsSync('setup.js') ? require('./setup') : {},
+  publicRuntimeConfig: fs.existsSync('application/setup.js') ? require('./application/setup') : {},
 });

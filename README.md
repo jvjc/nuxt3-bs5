@@ -11,7 +11,7 @@ application
 ```
 
 ```js
-// setup.js
+// application/setup.js
 module.exports = {
   axios: {
     baseURL: BASER_URL,
