@@ -4,7 +4,6 @@ node_modules
 nuxt.d.ts
 .output
 .vscode
-layouts
-pages
+application
 sync.sh
 setup.js

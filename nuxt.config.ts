@@ -6,6 +6,11 @@ import { defineNuxtConfig } from 'nuxt3';
 export default defineNuxtConfig({
   ssr: false,
   target: 'static',
+  dir: {
+    layouts: 'application/layouts',
+    pages: 'application/pages',
+    public: 'application/public',
+  },
   css: [
     '@/assets/scss/app.scss',
     '@fortawesome/fontawesome-svg-core/styles.css',

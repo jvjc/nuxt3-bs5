@@ -1,6 +1,15 @@
 # Nuxt 3 with Bootstrap 5
 
 Project config
+
+Create the application directory
+```
+application
+  /layouts
+  /pages
+  /public
+```
+
 ```js
 // setup.js
 module.exports = {
@@ -11,6 +20,8 @@ module.exports = {
   }
 };
 ```
+
+# Nuxt
 
 We recommend to look at the [documentation](https://v3.nuxtjs.org).
 
