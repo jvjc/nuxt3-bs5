@@ -1,0 +1,50 @@
+$font-family-sans-serif: Roboto, Helvetica, Arial, sans-serif;
+
+$blue: #008cba;
+$red: #f04124;
+$orange: #fd7e14;
+$yellow: #e99002;
+$green: #43ac6a;
+$cyan: #5bc0de;
+
+$white: #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-600: #6c757d;
+$gray-900: #212529;
+$black: #000;
+
+$primary: $blue;
+$secondary: $gray-600;
+$success: $green;
+$info: $cyan;
+$warning: $yellow;
+$danger: $red;
+$light: $gray-100;
+$dark: $gray-900;
+$gray: $gray-200;
+
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "success": $success,
+  "info": $info,
+  "warning": $warning,
+  "danger": $danger,
+  "light": $light,
+  "dark": $dark,
+  "gray": $gray,
+  "white": $white,
+  "black": $black
+);
+
+$sidebar-width: 240px;
+$sidebar-collapsed-width: 58px;
+
+// SweetAlert2
+$swal2-confirm-button-background-color: $primary;
+$swal2-confirm-button-color: $white;
+$swal2-deny-button-background-color: $danger;
+$swal2-deny-button-color: $white;
+$swal2-cancel-button-background-color: $gray;
+$swal2-cancel-button-color: $black;
