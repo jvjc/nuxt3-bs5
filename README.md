@@ -1,4 +1,16 @@
-# Nuxt 3 Minimal Starter
+# Nuxt 3 with Bootstrap 5
+
+Project config
+```js
+// setup.js
+module.exports = {
+  axios: {
+    baseURL: BASER_URL,
+    timeout: TIMEOUT,
+    headers: HEADERS
+  }
+};
+```
 
 We recommend to look at the [documentation](https://v3.nuxtjs.org).
 
@@ -7,7 +19,7 @@ We recommend to look at the [documentation](https://v3.nuxtjs.org).
 Make sure to install the dependencies
 
 ```bash
-yarn install
+npm install
 ```
 
 ## Development
@@ -15,7 +27,7 @@ yarn install
 Start the development server on http://localhost:3000
 
 ```bash
-yarn dev
+npm dev
 ```
 
 ## Production
@@ -23,7 +35,7 @@ yarn dev
 Build the application for production:
 
 ```bash
-yarn build
+npm build
 ```
 
 Checkout the [deployment documentation](https://v3.nuxtjs.org/docs/deployment).
